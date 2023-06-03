@@ -65,6 +65,30 @@ body{
     color: #0f102c;
 }
 
+
+
+.dwnld_bt{
+  position: relative;
+  margin-top: 25%; 
+  /* height:200px;  */
+  width:100%;
+  background-color:antiquewhite;
+  padding: 1% 10% 1% 10%;
+} 
+
+.dwnldtxt {
+  margin-left: 20%;
+  margin-top: -5%;
+}
+.prof2 {
+  margin-left: 30%;
+  position: absolute;
+  top: -8%;
+}
+.dwnd-button{
+  margin-left: 20%;
+}
+
 @media screen and (max-width: 1024px) and (min-width: 200px) {
     .header{
         height: 210px;
