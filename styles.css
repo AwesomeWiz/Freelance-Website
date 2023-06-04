@@ -107,7 +107,7 @@ nav ul li a{
   text-decoration: none;
 }
 nav ul li {
-  width: 6%;
+  width: 7%;
   float: left;
   text-align: center;
   padding: 12px 50px;
@@ -120,8 +120,6 @@ nav ul li {
 nav ul li:hover {
   background-color: #e28225;
 }
-
-/* sub-menu */
 
 nav ul li ul.prod-drop {
   position: absolute;
@@ -161,25 +159,34 @@ nav ul li:hover ul.prod-drop{
   background-color: #0f102c;
 }
 .search-box{
-  position: relative;
+  position: absolute;
   height: 25px;
   width: 220px;
   border-radius: 15px;
   border: 1px solid #ffe4bf;
   box-sizing: border-box;
+  margin-left: 35%;
 }
 .search-icon {
   position: absolute;
   top: 5px;
-  right: 10px;
+  right: -180px;
   border: 0;
-  display: block;
   padding: 0;
 }
 input, select, textarea {
   color: #ffe4bf;
 }
 
+.search-results {
+  margin-left: 25%;
+  margin-top: 11%;
+}
+.search-list {
+  width: 100%;
+  display: none; 
+  background-color: #444759;
+}
 .slider {
   width: 100%;
   height: 610px;
@@ -299,11 +306,17 @@ word-wrap: break-word;
 }
 
 @media screen and (max-width: 1600px) and (min-width: 1200px) {
-.vision-para {
+.company-name {
+  top: 5%;
+}
+  nav ul li {
+  width: 5%;
+}
+  .vision-para {
   font-size: 0.8rem;
 }
 .vision-img{
-  height: 600px;
+  height: 650px;
 }
 .vision-cont {
   margin-top: -40%;
@@ -422,7 +435,7 @@ color: #383838;
 font-size: 1.2rem;
 font-weight: 600;
 text-align: center;
-margin-top: 9%;
+margin-top: 10%;
 margin-left: -29%;
 }
 
@@ -487,7 +500,7 @@ color: #383838;
 font-size: 1.2rem;
 font-weight: 600;
 text-align: center;
-margin-top: 13%;
+margin-top: 15%;
 margin-left: -29%;
 }
 
@@ -515,7 +528,7 @@ color: #383838;
 font-size: 1.2rem;
 font-weight: 600;
 text-align: center;
-margin-top: 12%;
+margin-top: 15%;
 margin-left: -29%;
 }
 
@@ -542,7 +555,7 @@ color: #383838;
 font-size: 1.2rem;
 font-weight: 600;
 text-align: center;
-margin-top: 13%;
+margin-top: 15%;
 margin-left: -29%;
 }
 
@@ -570,7 +583,7 @@ color: #383838;
 font-size: 1.2rem;
 font-weight: 600;
 text-align: center;
-margin-top: 12%;
+margin-top: 15%;
 margin-left: -29%;
 }
 

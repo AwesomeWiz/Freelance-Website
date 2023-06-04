@@ -47,7 +47,7 @@
             <ul>
             <li><a href="#home">HOME</a></li>
             <li><a href="#about">ABOUT</a></li>
-            <li><a href="#products">PRODUCTS ⮟</a>
+            <li><a href="#products">PRODUCTS</a>
             <ul class="prod-drop">
                 <li><a class="link-hidden" href="#fab-n-pack">FABRICATION & PACKAGING</a></li>
                 <li><a class="link-hidden" href="#pv-solar-sys">PV SOLAR SYSTEM</a></li>
@@ -63,10 +63,22 @@
             <li><a href="#contact">CONTACT</a></li>
         </ul>
             <div class="search">
-                <form accept="#">
-                <input class="search-box" type="text"/>
-                <button class="search-icon" type="submit"><img src="IMAGES/ICON/Seach.png" alt="Search Icon"/></button>
-            </form>
+                <input id="search-bar" class="search-box" onkeyup="search_fn()" type="text"/>
+                <button class="search-icon" type="submit"><img id="search-logo" src="IMAGES/ICON/Seach.png" alt="Search Icon"/></button>
+                <ul class="search-results">
+                    <li class="search-list"><a href="#about">About</a></li><br>
+                    <li class="search-list"><a href="#fab-n-pack">Fabrication & Packaging</a></li><br>
+                    <li class="search-list"><a href="#pv-solar-sys">PV Solar System</a></li><br>
+                    <li class="search-list"><a href="#power-n-hand">Power & Hand Tools</a></li><br>
+                    <li class="search-list"><a href="#pipes-n-fit">Pipes & Fittings</a></li><br>
+                    <li class="search-list"><a href="#welding-cons">Welding Consumables</a></li><br>
+                    <li class="search-list"><a href="#safety-supp">Safety Supllies</a></li><br>
+                    <li class="search-list"><a href="#build-mat">Building Materials</a></li><br>
+                    <li class="search-list"><a href="#office-stat">Office Stationeries</a></li><br>
+                    <li class="search-list"><a href="#uniforms">Uniforms</a></li><br>
+                    <li class="search-list"><a href="#downloads">Downloads</a></li><br>
+                    <li class="search-list"><a href="#contact">Contact</a></li>
+                </ul>
         </div>
 
         </nav>
@@ -434,7 +446,7 @@ Kingdom of Saudi Arabia</pre></p>
 <a class="back-home" href="#home"><img src="IMAGES/ICON/Back to home.png"/></a>
 </footer>
 
-<script src="scripts.js"></script>
         </body>
-    
+        <script src="scripts1.js"></script>
+        <script src="scripts2.js"></script>
 </html>
